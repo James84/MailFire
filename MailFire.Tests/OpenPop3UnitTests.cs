@@ -45,6 +45,14 @@ namespace MailFire.Tests
             Assert.AreEqual(messages.Count(), limit, string.Format("Incorrect number of emails: Should have been {0} but {1} returned.", limit, messages.Count()));
         }
 
+        [Test]
+        public void GetMessagesCalled_NoLimitPassedIn_MaxOf100Returned()
+        {
+            var messages = client.GetMessages(hostname, port, useSSL, username, password).ToList();
+
+            Assert.IsTrue(messages.Count() <= 100, "More than 100 results returned");
+        }
+
         [TearDown]
         public void TearDown()
         {
