@@ -39,7 +39,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AE.Net.Mail">
+      <HintPath>..\packages\AE.Net.Mail.1.7.9.1\lib\net45\AE.Net.Mail.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenPop">
+      <HintPath>..\packages\OpenPop.NET.2.0.4.369\lib\net20\OpenPop.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -114,6 +123,7 @@
     </Compile>
     <Compile Include="IMessaging.cs" />
     <Compile Include="Mailing\ImapMessaging.cs" />
+    <Compile Include="Mailing\OpenPop3Messaging.cs" />
     <Compile Include="Mailing\Pop3Messaging.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

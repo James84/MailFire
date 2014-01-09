@@ -25,3 +25,9 @@ C:\git\private\MailFire\MailFire\bin\System.Web.WebPages.Razor.xml
 C:\git\private\MailFire\MailFire\obj\Debug\MailFire.csprojResolveAssemblyReference.cache
 C:\git\private\MailFire\MailFire\obj\Debug\MailFire.dll
 C:\git\private\MailFire\MailFire\obj\Debug\MailFire.pdb
+C:\git\private\MailFire\MailFire\bin\AE.Net.Mail.dll
+C:\git\private\MailFire\MailFire\bin\AE.Net.Mail.pdb
+C:\git\private\MailFire\MailFire\bin\OpenPop.dll
+C:\git\private\MailFire\MailFire\bin\OpenPop.xml
+C:\git\private\MailFire\MailFire\bin\nunit.framework.dll
+C:\git\private\MailFire\MailFire\bin\nunit.framework.xml
