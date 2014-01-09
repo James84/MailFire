@@ -1,0 +1,5 @@
+C:\git\private\MailFire\MailFire.Tests\bin\Debug\MailFire.Tests.dll
+C:\git\private\MailFire\MailFire.Tests\bin\Debug\MailFire.Tests.pdb
+C:\git\private\MailFire\MailFire.Tests\obj\Debug\MailFire.Tests.csprojResolveAssemblyReference.cache
+C:\git\private\MailFire\MailFire.Tests\obj\Debug\MailFire.Tests.dll
+C:\git\private\MailFire\MailFire.Tests\obj\Debug\MailFire.Tests.pdb
